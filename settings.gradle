@@ -1,0 +1,6 @@
+include ':posenetm'
+include ':posenet2'
+include ':app'
+rootProject.name = "ImagePro"
+include ':openCVLibrary3413'
+project(':posenetm').projectDir = new File(rootDir, 'posenet/')
